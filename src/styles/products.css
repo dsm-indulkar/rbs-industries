@@ -1,11 +1,28 @@
 .products-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-  gap: 25px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
 }
 
 .product-card {
   background: white;
-  padding: 20px;
+  padding: 18px;
   border-radius: 8px;
+}
+
+.product-card h3 {
+  font-size: 18px;
+  margin-top: 0;
+}
+
+.product-card p {
+  font-size: 14px;
+  color: #475569;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .product-card h3 {
+    font-size: 16px;
+  }
 }

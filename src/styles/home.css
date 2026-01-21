@@ -1,23 +1,36 @@
 .home-title {
-  font-size: 36px;
+  font-size: 34px;
+  margin-bottom: 10px;
 }
 
 .home-subtitle {
-  font-size: 18px;
+  font-size: 17px;
   color: #475569;
+  max-width: 700px;
 }
 
 .home-highlight {
   margin-top: 30px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 20px;
+  gap: 18px;
 }
 
 .highlight-box {
   background: white;
-  padding: 20px;
+  padding: 18px;
   border-radius: 8px;
   text-align: center;
-  font-weight: bold;
+  font-weight: 600;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .home-title {
+    font-size: 26px;
+  }
+
+  .home-subtitle {
+    font-size: 15px;
+  }
 }
