@@ -1,9 +1,20 @@
+import "../styles/common.css";
+import "../styles/about.css";
+
 function About() {
   return (
-    <div>
+    <div className="page">
       <h2>About RBS Industries</h2>
-      <p>We provide quality wholesale products at best prices.</p>
+
+      <div className="about-box">
+        <p className="about-text">
+          RBS Industries is a trusted wholesale business providing quality
+          products to retailers and businesses with reliable service and
+          competitive pricing.
+        </p>
+      </div>
     </div>
   );
 }
+
 export default About;

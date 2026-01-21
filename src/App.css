@@ -33,3 +33,18 @@ h1, h2 {
   bottom: 0;
   width: 100%;
 }
+
+.container {
+  padding: 40px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+p {
+  line-height: 1.6;
+  color: #334155;
+}
+
+h1, h2 {
+  margin-bottom: 15px;
+}
