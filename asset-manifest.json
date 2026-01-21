@@ -1,15 +1,13 @@
 {
   "files": {
-    "main.css": "/rbs-industries/static/css/main.383ba92a.css",
-    "main.js": "/rbs-industries/static/js/main.1544a6a0.js",
-    "static/js/453.32b94bdb.chunk.js": "/rbs-industries/static/js/453.32b94bdb.chunk.js",
+    "main.css": "/rbs-industries/static/css/main.812fdde0.css",
+    "main.js": "/rbs-industries/static/js/main.3a16b54a.js",
     "index.html": "/rbs-industries/index.html",
-    "main.383ba92a.css.map": "/rbs-industries/static/css/main.383ba92a.css.map",
-    "main.1544a6a0.js.map": "/rbs-industries/static/js/main.1544a6a0.js.map",
-    "453.32b94bdb.chunk.js.map": "/rbs-industries/static/js/453.32b94bdb.chunk.js.map"
+    "main.812fdde0.css.map": "/rbs-industries/static/css/main.812fdde0.css.map",
+    "main.3a16b54a.js.map": "/rbs-industries/static/js/main.3a16b54a.js.map"
   },
   "entrypoints": [
-    "static/css/main.383ba92a.css",
-    "static/js/main.1544a6a0.js"
+    "static/css/main.812fdde0.css",
+    "static/js/main.3a16b54a.js"
   ]
 }
