@@ -9,20 +9,27 @@ import About from "./pages/About";
 import Products from "./pages/Products";
 import Contact from "./pages/Contact";
 
+import "./styles/common.css";
+
 function App() {
   return (
     <HashRouter>
-      <Navbar />
+      <div className="app-wrapper">
+        <Navbar />
 
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/products" element={<Products />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
+        {/* MAIN CONTENT */}
+        <main className="content">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/products" element={<Products />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </main>
 
-      <WhatsAppButton />
-      <Footer />
+        <Footer />
+        <WhatsAppButton />
+      </div>
     </HashRouter>
   );
 }
