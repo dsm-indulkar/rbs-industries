@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/rbs-industries/static/css/main.2b7a1930.css",
-    "main.js": "/rbs-industries/static/js/main.6ceab895.js",
-    "index.html": "/rbs-industries/index.html",
-    "main.2b7a1930.css.map": "/rbs-industries/static/css/main.2b7a1930.css.map",
-    "main.6ceab895.js.map": "/rbs-industries/static/js/main.6ceab895.js.map"
+    "main.css": "/rbs-industries.com/static/css/main.6f8b3980.css",
+    "main.js": "/rbs-industries.com/static/js/main.d3ed77a8.js",
+    "index.html": "/rbs-industries.com/index.html",
+    "main.6f8b3980.css.map": "/rbs-industries.com/static/css/main.6f8b3980.css.map",
+    "main.d3ed77a8.js.map": "/rbs-industries.com/static/js/main.d3ed77a8.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b7a1930.css",
-    "static/js/main.6ceab895.js"
+    "static/css/main.6f8b3980.css",
+    "static/js/main.d3ed77a8.js"
   ]
 }
