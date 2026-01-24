@@ -3,8 +3,8 @@ import "../styles/home.css";
 
 export default function Home() {
   return (
-    <div className="page">
-      {/* BANNER */}
+    <div className="page home-bg">
+      {/* IMAGE BANNER */}
       <Banner />
 
       <section className="home-hero">
