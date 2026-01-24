@@ -1,4 +1,4 @@
-import "../styles/common.css";
+import "../styles/footer.css";
 
 export default function Footer() {
   return (
@@ -14,17 +14,30 @@ export default function Footer() {
 
         <div className="footer-col">
           <h4>Contact</h4>
-          <p>📍 Maharashtra, India</p>
-          <p>📞 +91 XXXXXXXX</p>
-          <p>🕘 9 AM – 7 PM</p>
+          <p>
+        📍{" "}
+        <a
+          href="https://maps.app.goo.gl/REEv5Jcaqdj9oZH1A"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Gangapur, Kolhapur, Maharashtra
+        </a>
+      </p>
+          <p><a href="tel:+918698964344">📞 +91 8698964344</a></p>
+          <p>🕘 09:00 AM – 07:00 PM</p>
         </div>
 
         <div className="footer-col">
-          <h4>Quick Links</h4>
-          <a href="#/why-our-oil">Why Our Oil</a>
-          <a href="#/gallery">Gallery</a>
-          <a href="#/contact">Contact</a>
-        </div>
+  <h4>Quick Links</h4>
+
+  <div className="quick-links vertical">
+    <a href="#/benefits">Benefits</a>
+    <a href="#/wholesale">Wholesale</a>
+    <a href="#/gallery">Gallery</a>
+  </div>
+</div>
+
       </div>
 
       {/* BOTTOM LINE */}

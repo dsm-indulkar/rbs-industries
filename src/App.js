@@ -1,5 +1,7 @@
 import { HashRouter, Routes, Route } from "react-router-dom";
-import "./styles/common.css";
+import "./styles/base.css";
+import "./styles/pages.css";
+
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -12,6 +14,8 @@ import WhyOurOil from "./pages/WhyOurOil";
 import Wholesale from "./pages/Wholesale";
 import Gallery from "./pages/Gallery";
 import Contact from "./pages/Contact";
+import About from "./pages/About";
+
 
 export default function App() {
   return (
@@ -24,6 +28,7 @@ export default function App() {
             <Route path="/" element={<Home />} />
             <Route path="/products" element={<Products />} />
             <Route path="/benefits" element={<Benefits />} />
+            <Route path="/about" element={<About />} />
             <Route path="/why-our-oil" element={<WhyOurOil />} />
             <Route path="/wholesale" element={<Wholesale />} />
             <Route path="/gallery" element={<Gallery />} />

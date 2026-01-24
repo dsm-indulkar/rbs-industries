@@ -5,16 +5,10 @@ export default function WhyOurOil() {
 
       <ul>
         <li>Enriched with natural nutrients</li>
+        <li>Made from high-quality coconuts</li>
         <li>No harmful chemicals</li>
-        <li>Traditional processing</li>
+        <li>Traditional processing with modern standards</li>
         <li>Safe for all age groups</li>
-      </ul>
-
-      <h3>RBS समृद्ध नारळ तेल का निवडावे?</h3>
-      <ul>
-        <li>नैसर्गिक पोषक घटकांनी समृद्ध</li>
-        <li>घातक रसायन नाही</li>
-        <li>सर्व वयोगटांसाठी सुरक्षित</li>
       </ul>
     </div>
   );

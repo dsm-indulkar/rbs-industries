@@ -3,16 +3,24 @@ import "../styles/products.css";
 export default function Products() {
   return (
     <div className="page">
-      <h2>Our Product</h2>
-      <p><strong>RBS Enriched Coconut Hair Oil</strong></p>
+      <div className="product-box">
+        <h2>Our Products</h2>
 
-      <ul className="list">
-        <li>100 ml</li>
-        <li>200 ml</li>
-        <li>500 ml</li>
-      </ul>
+        <p>
+          <strong>RBS Enriched Coconut Hair Oil</strong>
+        </p>
 
-      <p>Usage: Apply gently on scalp and hair.</p>
+        <ul>
+          <li>125 ml Pouch</li>
+          <li>250 ml Pouch</li>
+          <li>500 ml Bottle</li>
+        </ul>
+
+        <p>
+          Usage: Apply gently on scalp and hair. Massage well and leave for best
+          results. Suitable for regular use.
+        </p>
+      </div>
     </div>
   );
 }

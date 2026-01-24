@@ -1,3 +1,10 @@
-.list li {
-  margin: 8px 0;
+.product-box {
+  background: white;
+  padding: 28px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+}
+
+.product-box ul li {
+  margin: 10px 0;
 }

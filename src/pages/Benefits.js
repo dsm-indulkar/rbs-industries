@@ -5,19 +5,27 @@ export default function Benefits() {
     <div className="page">
       <h2>Benefits of Enriched Coconut Hair Oil</h2>
 
-      <ul className="list">
-        <li>Deeply nourishes hair and scalp</li>
-        <li>Strengthens hair roots</li>
-        <li>Reduces hair fall</li>
-        <li>Adds natural shine</li>
-      </ul>
+      <div className="benefits-grid">
+        <div className="benefit-card">
+          <h4>Hair Growth</h4>
+          <p>Strengthens hair roots and supports healthy hair growth.</p>
+        </div>
 
-      <h3>समृद्ध नारळ तेलाचे फायदे</h3>
-      <ul className="list">
-        <li>केस व टाळूला पोषण देते</li>
-        <li>केसांची मुळे मजबूत करते</li>
-        <li>केस गळणे कमी करते</li>
-      </ul>
+        <div className="benefit-card">
+          <h4>Reduces Hair Fall</h4>
+          <p>Nourishes scalp and minimizes hair breakage.</p>
+        </div>
+
+        <div className="benefit-card">
+          <h4>Natural Shine</h4>
+          <p>Adds softness and natural shine to hair.</p>
+        </div>
+
+        <div className="benefit-card">
+          <h4>Scalp Care</h4>
+          <p>Improves scalp health and reduces dryness.</p>
+        </div>
+      </div>
     </div>
   );
 }

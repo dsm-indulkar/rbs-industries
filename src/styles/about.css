@@ -1,5 +1,172 @@
-.about-box {
-  background: white;
-  padding: 25px;
-  border-left: 5px solid #0f172a;
+/* =========================
+   ABOUT PAGE – ANIMATED BACKGROUND
+========================= */
+
+.about {
+  position: relative;
+  background: linear-gradient(
+    120deg,
+    #f8fafc,
+    #eef2ff,
+    #f0fdf4,
+    #ecfeff
+  );
+  background-size: 300% 300%;
+  animation: bgMove 14s ease infinite;
+  border-radius: 18px;
+  padding: 36px 26px;
+  overflow: hidden;
+}
+
+/* Animated gradient movement */
+@keyframes bgMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* =========================
+   PAGE INTRO TEXT
+========================= */
+
+.about h2 {
+  font-size: 32px;
+  margin-bottom: 16px;
+  color: #020617;
+  animation: fadeUp 0.8s ease forwards;
+}
+
+.about p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #334155;
+  margin-top: 10px;
+  animation: fadeUp 0.9s ease forwards;
+}
+
+/* =========================
+   DIVIDER
+========================= */
+
+.about-divider {
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    #cbd5e1,
+    transparent
+  );
+  margin: 36px 0;
+}
+
+/* =========================
+   VISION / MISSION / VALUES GRID
+========================= */
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 26px;
+  margin-top: 20px;
+}
+
+.about-card {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 28px;
+  border-radius: 18px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.06);
+  animation: fadeCard 0.9s ease forwards;
+}
+
+.about-card h4 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #020617;
+}
+
+.about-card p,
+.about-card li {
+  font-size: 14px;
+  color: #475569;
+  line-height: 1.6;
+}
+
+/* VALUES LIST */
+.about-card ul {
+  padding-left: 18px;
+}
+
+.about-card li {
+  margin: 6px 0;
+}
+
+/* =========================
+   WHY CHOOSE SECTION
+========================= */
+
+.about h3 {
+  margin-top: 30px;
+  font-size: 20px;
+  color: #020617;
+}
+
+.about ul {
+  margin-top: 12px;
+  padding-left: 18px;
+}
+
+.about ul li {
+  font-size: 14px;
+  margin: 6px 0;
+  color: #475569;
+}
+
+/* =========================
+   ANIMATIONS
+========================= */
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeCard {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+  .about {
+    padding: 26px 18px;
+  }
+
+  .about h2 {
+    font-size: 26px;
+  }
+
+  .about h3 {
+    font-size: 18px;
+  }
 }

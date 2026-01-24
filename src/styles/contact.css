@@ -1,28 +1,191 @@
-.contact-box {
-  background: white;
-  padding: 22px;
-  max-width: 420px;
-  border-radius: 8px;
+/* =========================
+   CONTACT PAGE – ANIMATED BACKGROUND
+========================= */
+
+.contact {
+  max-width: 860px;
+  margin: auto;
+  padding: 40px 20px;
+  position: relative;
+
+  /* Animated gradient background */
+  background: linear-gradient(
+    120deg,
+    #ecfeff,
+    #eef2ff,
+    #f0fdf4,
+    #ecfeff
+  );
+  background-size: 300% 300%;
+  animation: bgFlow 14s ease infinite;
+
+  border-radius: 22px;
+  animation: fadeUp 0.9s ease forwards;
 }
 
-.contact-box p {
+/* Background animation */
+@keyframes bgFlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* =========================
+   TITLE
+========================= */
+
+.contact h2 {
+  font-size: 32px;
+  margin-bottom: 26px;
+  text-align: center;
+  color: #020617;
+  letter-spacing: 1px;
+}
+
+/* =========================
+   CONTACT INFO BOX
+========================= */
+
+.contact-info {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-bottom: 38px;
+  padding: 20px;
+  border-radius: 18px;
+
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+.contact-info p {
+  margin: 0;
   font-size: 15px;
+  font-weight: 600;
 }
 
-.contact-btn {
-  display: inline-block;
-  margin-top: 15px;
-  background: #25D366;
+.contact-info a {
+  color: #2563eb;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+/* =========================
+   FORM CARD (GLASS STYLE)
+========================= */
+
+.contact-form {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(14px);
+  padding: 38px;
+  border-radius: 26px;
+  box-shadow: 0 24px 50px rgba(0, 0, 0, 0.14);
+  border: 1px solid rgba(255, 255, 255, 0.45);
+}
+
+/* =========================
+   FORM GROUP
+========================= */
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 22px;
+}
+
+.form-group label {
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  letter-spacing: 0.6px;
+  color: #020617;
+}
+
+/* INPUTS */
+.form-group input,
+.form-group textarea {
+  padding: 14px 16px;
+  border-radius: 14px;
+  border: 1px solid #cbd5e1;
+  font-size: 14px;
+  background: rgba(255, 255, 255, 0.95);
+  transition: all 0.3s ease;
+}
+
+/* FOCUS EFFECT */
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #38bdf8;
+  box-shadow: 0 0 0 4px rgba(56, 189, 248, 0.25);
+  transform: translateY(-1px);
+}
+
+/* =========================
+   SUBMIT BUTTON
+========================= */
+
+.submit-btn {
+  width: 100%;
+  margin-top: 14px;
+  background: linear-gradient(135deg, #25d366, #16a34a);
   color: white;
-  padding: 12px 18px;
-  border-radius: 30px;
-  text-decoration: none;
-  font-weight: bold;
+  padding: 15px;
+  border: none;
+  border-radius: 999px;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  cursor: pointer;
+  box-shadow: 0 14px 34px rgba(37, 211, 102, 0.5);
+  transition: all 0.3s ease;
 }
 
-/* Mobile */
-@media (max-width: 600px) {
-  .contact-box {
-    width: 100%;
+.submit-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 18px 44px rgba(37, 211, 102, 0.65);
+}
+
+/* =========================
+   PAGE FADE ANIMATION
+========================= */
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+  .contact h2 {
+    font-size: 26px;
+  }
+
+  .contact-info {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact-form {
+    padding: 26px;
   }
 }
