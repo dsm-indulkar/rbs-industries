@@ -1,13 +1,18 @@
 {
   "files": {
-    "main.css": "/rbs-industries/static/css/main.6f8b3980.css",
-    "main.js": "/rbs-industries/static/js/main.d3ed77a8.js",
+    "main.css": "/rbs-industries/static/css/main.4b1d037a.css",
+    "main.js": "/rbs-industries/static/js/main.96b9c57e.js",
+    "static/media/banner4.jpg": "/rbs-industries/static/media/banner4.ba86b45c75164479cf3a.jpg",
+    "static/media/banner1.jpg": "/rbs-industries/static/media/banner1.27807deb7c654614d363.jpg",
+    "static/media/banner5.jpg": "/rbs-industries/static/media/banner5.6741c2b738aaaf4af33e.jpg",
+    "static/media/banner2.jpg": "/rbs-industries/static/media/banner2.1625161dfdd5f45246c1.jpg",
+    "static/media/banner3.jpg": "/rbs-industries/static/media/banner3.6a02acd17c318f528e38.jpg",
     "index.html": "/rbs-industries/index.html",
-    "main.6f8b3980.css.map": "/rbs-industries/static/css/main.6f8b3980.css.map",
-    "main.d3ed77a8.js.map": "/rbs-industries/static/js/main.d3ed77a8.js.map"
+    "main.4b1d037a.css.map": "/rbs-industries/static/css/main.4b1d037a.css.map",
+    "main.96b9c57e.js.map": "/rbs-industries/static/js/main.96b9c57e.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f8b3980.css",
-    "static/js/main.d3ed77a8.js"
+    "static/css/main.4b1d037a.css",
+    "static/js/main.96b9c57e.js"
   ]
 }
