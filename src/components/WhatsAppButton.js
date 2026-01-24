@@ -1,25 +1,17 @@
-function WhatsAppButton() {
+export default function WhatsAppButton() {
   return (
-    <a
-      href="https://wa.me/91XXXXXXXXXX"
-      target="_blank"
-      rel="noreferrer"
-      style={{
-        position: "fixed",
-        bottom: "20px",
-        right: "20px",
-        background: "#25D366",
-        color: "#fff",
-        padding: "14px 18px",
-        borderRadius: "50px",
-        textDecoration: "none",
-        fontWeight: "bold",
-        zIndex: 1000,
-      }}
-    >
-      WhatsApp
-    </a>
+    <div className="floating-left">
+      <a
+        href="https://wa.me/91XXXXXXXXXX"
+        target="_blank"
+        rel="noreferrer"
+        className="contact-button"
+      >
+        Contact Us
+        <span className="contact-sub">
+          WhatsApp • Email
+        </span>
+      </a>
+    </div>
   );
 }
-
-export default WhatsAppButton;

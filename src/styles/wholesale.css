@@ -1,0 +1,10 @@
+.wh-btn {
+  display: inline-block;
+  margin-top: 20px;
+  background: #25d366;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+}
