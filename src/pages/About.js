@@ -5,18 +5,12 @@ export default function About() {
     <div className="page about">
       <h2>About RBS Industries</h2>
 
-      <p>
-        RBS Industries is a quality-driven manufacturer and supplier of
-        Enriched Coconut Hair Oil. We focus on delivering natural, safe,
-        and effective hair care solutions made from carefully selected
-        coconuts and processed with strict quality standards.
-      </p>
+<p>
+  RBS Industries is the manufacturer of <strong>Gangotri Coconut Hair Oil</strong>,
+  a premium hair care product made from carefully selected coconuts and
+  processed with high quality standards.
+</p>
 
-      <p>
-        Our products are crafted to nourish hair, strengthen roots, and
-        support long-term hair health while maintaining purity and
-        consistency in every batch.
-      </p>
 
       <div className="about-divider" />
 
