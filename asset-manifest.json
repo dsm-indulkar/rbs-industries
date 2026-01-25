@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/rbs-industries/static/css/main.fb57ac54.css",
-    "main.js": "/rbs-industries/static/js/main.2ac390f1.js",
+    "main.js": "/rbs-industries/static/js/main.bf9479f6.js",
     "static/media/bottle500.jpg": "/rbs-industries/static/media/bottle500.f7bc7d3b6a5534842ad1.jpg",
     "static/media/pouch125.jpg": "/rbs-industries/static/media/pouch125.f7bc7d3b6a5534842ad1.jpg",
     "static/media/pouch250.jpg": "/rbs-industries/static/media/pouch250.f7bc7d3b6a5534842ad1.jpg",
@@ -12,10 +12,10 @@
     "static/media/banner3.jpg": "/rbs-industries/static/media/banner3.6a02acd17c318f528e38.jpg",
     "index.html": "/rbs-industries/index.html",
     "main.fb57ac54.css.map": "/rbs-industries/static/css/main.fb57ac54.css.map",
-    "main.2ac390f1.js.map": "/rbs-industries/static/js/main.2ac390f1.js.map"
+    "main.bf9479f6.js.map": "/rbs-industries/static/js/main.bf9479f6.js.map"
   },
   "entrypoints": [
     "static/css/main.fb57ac54.css",
-    "static/js/main.2ac390f1.js"
+    "static/js/main.bf9479f6.js"
   ]
 }
